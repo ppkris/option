@@ -3,8 +3,6 @@ A Simple Interactive Brokers Python Bot Youtube : https://www.youtube.com/watch?
 Jacob Amaral
 '''
 
-#test github
-
 #Imports
 import ibapi
 from ibapi.client import EClient
