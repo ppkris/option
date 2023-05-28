@@ -55,3 +55,13 @@ def generate_demo_code():
 def cal_profit_loss(opt_st_pr, opt_cost, opt_num, opt_curr_pr):
     pro_los = opt_curr_pr * opt_num - opt_cost * opt_num
     print("The profit or loss is", pro_los)
+
+# cal_profit_loss(opt_st_pr, opt_cost, opt_num, opt_curr_pr)
+def cal_profit_loss_random(opt_st_pr, opt_cost, opt_num, opt_curr_pr):
+    import random
+    pro_los = opt_curr_pr * opt_num - opt_cost * opt_num
+    print("The profit or loss is", pro_los)
+    if random.random() < 0.5:
+        print("The option price is going down")
+    else:
+        print("The option price is going up")
