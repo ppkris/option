@@ -16,3 +16,42 @@ option 买入数量: opt_num
 
 '''
 
+opt_st_pr = "AAPL 150 Call"
+opt_cost = 2.50
+opt_num = 10
+opt_curr_pr = 3.00
+
+def generate_demo_code():
+    # Define some variables
+    name = "John"
+    age = 30
+    city = "New York"
+
+    # Print out a message using the variables
+    print("My name is", name, "and I am", age, "years old. I live in", city)
+
+    # Define a list of numbers
+    numbers = [1, 2, 3, 4, 5]
+
+    # Use a for loop to print out each number in the list
+    for number in numbers:
+        print(number)
+
+    # Define a dictionary of information about a person
+    person = {"name": "Jane", "age": 25, "city": "San Francisco"}
+
+    # Print out the person's name and age
+    print(person["name"], "is", person["age"], "years old")
+
+    # Define a function that takes two arguments and returns their sum
+    def add_numbers(x, y):
+        return x + y
+
+    # Call the function and print out the result
+    result = add_numbers(3, 5)
+    print("The sum of 3 and 5 is", result)
+
+# generate_demo_code()
+def cal_profit_loss(opt_st_pr, opt_cost, opt_num, opt_curr_pr):
+    pro_los = opt_curr_pr * opt_num - opt_cost * opt_num
+    print("The profit or loss is", pro_los)
