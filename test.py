@@ -18,3 +18,7 @@ def cal_profit_loss_random(opt_st_pr, opt_cost, opt_num, opt_curr_pr):
 def newoption():
     print("new option")
 
+# let's try to add some more code
+def newoption2():
+    print("new option2")
+    # by pycharm
