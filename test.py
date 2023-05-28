@@ -14,3 +14,7 @@ def cal_profit_loss_random(opt_st_pr, opt_cost, opt_num, opt_curr_pr):
     pro_los = opt_curr_pr * opt_num - opt_cost * opt_num
     print("The profit or loss is", pro_los)
 
+# add some more code
+def newoption():
+    print("new option")
+
